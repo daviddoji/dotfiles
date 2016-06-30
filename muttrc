@@ -1,0 +1,15 @@
+set from = "XXX@gmail.com"
+set realname = "RaspiServer"
+set imap_user = "XXX@gmail.com"
+set imap_pass = "XXXXX"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed ="+[Gmail]/Drafts"
+set header_cache =~/.mutt/cache/headers
+set message_cachedir =~/.mutt/cache/bodies
+set certificate_file =~/.mutt/certificates
+set smtp_url = "smtps://XXX@smtp.gmail.com:465/"
+set smtp_pass = "XXXXX"
+set move = no
+#set ssl_starttls=yes
+#set ssl_force_tls=yes
