@@ -116,9 +116,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias raspi93='ssh pi@192.168.0.93 -p 5093'
-alias raspi46='ssh pi@192.168.0.46 -p 5046'
-alias arch='ssh david@192.168.0.14 -p 5014'
+alias raspi93='ssh pi@192.168.0.93 -p XX'
+alias raspi46='ssh pi@192.168.0.46 -p XX'
+alias arch='ssh david@192.168.0.14 -p XX'
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias off='sudo poweroff'
 
