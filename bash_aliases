@@ -1,5 +1,9 @@
 #commands
+<<<<<<< HEAD
 alias suspend='systemctl suspend'
+=======
+alias ssp='systemctl suspend'
+>>>>>>> 22683b8b110eb5468eb9427e711b36fb1e8d0e3c
 
 
 #locations
