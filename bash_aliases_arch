@@ -12,15 +12,15 @@ alias upd8='reflector --sort rate -l 5 --save /etc/pacman.d/mirrorlist && yaourt
 
 
 #ssh connections
-alias raspi46='ssh pi@192.168.0.46 -p 5046'
+alias raspi46='ssh pi@192.168.0.46 -p XX'
 
-alias raspi93='ssh pi@192.168.0.93 -p 5093'
+alias raspi93='ssh pi@192.168.0.93 -p XX'
 
-alias raspi3='ssh pi@192.168.0.34 -p 5034'
+alias raspi3='ssh pi@192.168.0.34 -p XX'
 
-alias XPS13='ssh david@192.168.0.13 -p 5013'
+alias XPS13='ssh david@192.168.0.13 -p XX'
 
-alias XPS_Maria='ssh david@192.168.0.26 -p 5026'
+alias XPS_Maria='ssh david@192.168.0.26 -p XX'
 
 #ipython sessions
 alias ipython_C='cd /datos/ownCloud/Libros\ y\ revistas/Libros\ de\ informática/C; okular Absolute\ Beginners\ Guide\ to\ C.pdf & jupyter notebook'
