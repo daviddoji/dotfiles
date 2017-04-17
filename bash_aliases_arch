@@ -1,0 +1,31 @@
+#commands
+alias suspend='systemctl suspend'
+alias off='poweroff'
+alias count='tree -iLf 1'
+
+#locations
+alias dropbox='cd /home/david/Dropbox'
+alias SSOO='cd /datos/owncloud/UOC/Sistemas_Operativos/PECs'
+
+#update everything
+alias upd8='reflector --sort rate -l 5 --save /etc/pacman.d/mirrorlist && yaourt -Syua'
+
+
+#ssh connections
+alias raspi46='ssh pi@192.168.0.46 -p 5046'
+
+alias raspi93='ssh pi@192.168.0.93 -p 5093'
+
+alias raspi3='ssh pi@192.168.0.34 -p 5034'
+
+alias XPS13='ssh david@192.168.0.13 -p 5013'
+
+alias XPS_Maria='ssh david@192.168.0.26 -p 5026'
+
+#ipython sessions
+alias ipython_C='cd /datos/ownCloud/Libros\ y\ revistas/Libros\ de\ informática/C; okular Absolute\ Beginners\ Guide\ to\ C.pdf & jupyter notebook'
+
+alias ipython_regex='cd /datos/ownCloud/Libros\ y\ revistas/Libros\ de\ informática; okular JEF\ Friedl-Mastering\ regular\ expressions.pdf & jupyter notebook'
+
+alias ipython_pythonEssentials='cd /datos/ownCloud/Scripts/IPython_Notebooks/Canopy_Training/Python_Essentials; jupyter notebook'
+
