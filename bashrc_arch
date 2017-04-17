@@ -678,18 +678,6 @@ if (( $UID == 0 )); then
 fi
 
 
-# Added by Canopy installer on 2016-05-19
-# VIRTUAL_ENV_DISABLE_PROMPT can be set to '' to make the bash prompt show that Canopy is active, otherwise 1
-# alias activate_canopy="source '/datos/Scripts/Development/Enthought/Canopy_64bit/User/bin/activate'"
-# VIRTUAL_ENV_DISABLE_PROMPT=1 source '/datos/Scripts/Development/Enthought/Canopy_64bit/User/bin/activate'
-
-# Added by Canopy installer on 2016-07-22
-# VIRTUAL_ENV_DISABLE_PROMPT can be set to '' to make the bash prompt show that Canopy is active, otherwise 1
-alias activate_canopy="source '/datos/Canopy/User/bin/activate'"
-VIRTUAL_ENV_DISABLE_PROMPT=1 source '/datos/Canopy/User/bin/activate'
-
-
-
 # added by Anaconda3 4.3.0 installer
 export PATH="/datos/anaconda3/bin:$PATH"
 
@@ -698,10 +686,6 @@ export PATH="/datos/anaconda3/bin:$PATH"
 PS1="\[\e[0;1m\]┌─( \[\e[31;1m\]\u\[\e[0;1m\] ) » { \[\e[36;1m\]\w\[\e[0;1m\] }\n└──┤ \[\e[0m\]"
 
 #PS1="\[\e[1;32m\][\u@\h \W]$\[\e[m\]\[\e[1;37m\] "
-
-#source /datos/ownCloud/Scripts/Bash/Prompts/zer0prompt-master/zer0prompt/zer0prompt.sh
-#zer0prompt
-#unset zer0prompt
 
 
 xhost local:david > /dev/null
