@@ -2,6 +2,7 @@
 alias suspend='systemctl suspend'
 alias off='poweroff'
 alias count='tree -iLf 1'
+alias most_updated="grep -E '] (installed|upgraded) ' /var/log/pacman.log | cut -d' ' -f5 | sort | uniq -c | sort -n"
 
 
 #locations
