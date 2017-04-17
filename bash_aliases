@@ -1,9 +1,6 @@
 #commands
-<<<<<<< HEAD
+
 alias suspend='systemctl suspend'
-=======
-alias ssp='systemctl suspend'
->>>>>>> 22683b8b110eb5468eb9427e711b36fb1e8d0e3c
 
 
 #locations
@@ -15,9 +12,9 @@ alias upd8='sudo reflector --sort rate -l 5 --save /etc/pacman.d/mirrorlist && y
 
 
 #ssh connections
-alias raspi46='ssh pi@192.168.0.46 -p 5022'
+alias raspi46='ssh pi@192.168.0.46 -p XX'
 
-alias raspi93='ssh pi@192.168.0.93 -p 5022'
+alias raspi93='ssh pi@192.168.0.93 -p XX'
 
 
 #ipython sessions
