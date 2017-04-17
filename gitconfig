@@ -1,0 +1,9 @@
+[core]
+	editor = nano -w
+[user]
+	name = daviddoji
+	email = daviddoji@gmail.com
+[push]
+	default = simple
+[credential]
+	helper = cache --timeout=3600
